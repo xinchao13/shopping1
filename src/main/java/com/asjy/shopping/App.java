@@ -17,7 +17,7 @@ import com.github.pagehelper.PageHelper;
 @SpringBootApplication
 public class App 
 {
-	@Bean // 标注在方法上
+	@Bean // 标注在方法上453
 	PageHelper pageHelper() {
 		// 分页插件---p
 		PageHelper pageHelper = new PageHelper();
