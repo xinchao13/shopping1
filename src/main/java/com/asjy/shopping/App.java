@@ -17,7 +17,7 @@ import com.github.pagehelper.PageHelper;
 @SpringBootApplication
 public class App 
 {
-	/*@Bean // 标注在方法上
+	@Bean // 标注在方法上
 	PageHelper pageHelper() {
 		// 分页插件
 		PageHelper pageHelper = new PageHelper();
@@ -31,7 +31,7 @@ public class App
 		// 添加插件
 		new SqlSessionFactoryBean().setPlugins(new Interceptor[] { pageHelper });
 		return pageHelper;
-	}*/
+	}
     public static void main( String[] args )
     {
         SpringApplication.run(App.class,args);
