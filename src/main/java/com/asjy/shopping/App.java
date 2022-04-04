@@ -19,7 +19,7 @@ public class App
 {
 	@Bean // 标注在方法上453
 	PageHelper pageHelper() {
-		// 分页插件---p
+		// 分页插件---p--
 		PageHelper pageHelper = new PageHelper();
 		Properties properties = new Properties();
 		properties.setProperty("reasonable", "true");
